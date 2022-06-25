@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  
+  <servlet>  
+<servlet-name>LoginUser</servlet-name>  
+<servlet-class>employeedata.LoginUser</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>LoginUser</servlet-name>  
+<url-pattern>/LoginUser</url-pattern>  
+</servlet-mapping> 
+ <servlet>  
+<servlet-name>UpdateService</servlet-name>  
+<servlet-class>employeedata.UpdateService</servlet-class>  
+</servlet>  
+  
+<servlet-mapping>  
+<servlet-name>UpdateService</servlet-name>  
+<url-pattern>/UpdateService</url-pattern>  
+</servlet-mapping> 
+</web-app>
